@@ -9,6 +9,7 @@ import { CardComponent } from './vessel/card/card.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { CustomButtonComponent } from './vessel/custom-button/custom-button.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     AppComponent,
     DashboardComponent,
     CardComponent,
+    CustomButtonComponent,
   ],
   imports: [
     BrowserModule,

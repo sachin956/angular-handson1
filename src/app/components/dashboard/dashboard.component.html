@@ -1,6 +1,7 @@
 <div class="dashboard-content">
     <div class="add-card">
-        <button mat-raised-button color="primary" (click)="addCard()">ADD +</button>
+        <!-- <button mat-raised-button color="primary" (click)="addCard()">ADD +</button> -->
+        <app-custom-button buttonTitle="ADD +" (btnClick)="addCard()"></app-custom-button>
     </div>
 
     <div class="card-container">
@@ -9,6 +10,5 @@
                 <app-card></app-card>
             </mat-grid-tile>
         </mat-grid-list>
-
     </div>
 </div>
