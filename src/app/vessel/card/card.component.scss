@@ -1,0 +1,12 @@
+.example-card {
+    max-width: 300px;
+    margin-bottom: 8px;
+  }
+
+.card-header {
+    display: flex;
+    mat-card-title-group{
+        padding-top: 5%;
+        padding-left: 20px;
+    }
+}

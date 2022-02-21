@@ -1,0 +1,14 @@
+<div class="dashboard-content">
+    <div class="add-card">
+        <button mat-raised-button color="primary" (click)="addCard()">ADD +</button>
+    </div>
+
+    <div class="card-container">
+        <mat-grid-list cols="3" rowHeight="2:1">
+            <mat-grid-tile *ngFor="let card of cards">
+                <app-card></app-card>
+            </mat-grid-tile>
+        </mat-grid-list>
+
+    </div>
+</div>
